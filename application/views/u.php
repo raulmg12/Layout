@@ -24,7 +24,7 @@
 	<body>
 		<div class="row">
   			<div class="col-md-6" style="padding:60px;">
-	  			<center><img src="<?php echo $rutaBase.'resources/imagenes/user.png';?>" class="img-responsive" alt="Usuario"></center>
+	  			<center><img src="<?php echo $rutaBase.'resources/imagenes/richard.jpg';?>" class="img-responsive" alt="Usuario"></center>
   			</div>
   		
   			<div class="col-md-6">
