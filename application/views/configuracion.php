@@ -6,6 +6,10 @@
  	<head> <title> <h1><big><center> Configuracion</center></big></h1> </title></head>
  		
 <body>
+<?php 
+/*obtiene la ruta del proyecto*/
+$rutaBase = base_url();
+?>
 	<div class="row">	<!-- division primera parte de datos personales-->
 	<div class="col-sm-3 col-md-6" style="background-color:lavender;"> 
  
