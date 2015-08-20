@@ -10,7 +10,7 @@
 	<body>
 		<?php 
 			echo $menu;
-			//echo $contenedor;
+			echo $contenedor;
 			echo $footer;
 		?>
 	

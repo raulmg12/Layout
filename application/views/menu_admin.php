@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
       </button>
 	  
-      <a class="navbar-brand" href="<?php echo $rutaBase.'im2.png'; ?>"><img src="<?php echo $rutaBase.'im2.png'; ?>" height="180%" width="60%" ></a>
+      <a class="navbar-brand" href="<?php echo $rutaBase.'resources/imagenes/im2.png'; ?>"><img src="<?php echo $rutaBase.'resources/imagenes/im2.png'; ?>" height="180%" width="60%" ></a>
     </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
