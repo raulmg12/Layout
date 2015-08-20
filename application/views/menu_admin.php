@@ -77,7 +77,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="drop3">
 				<!--Se modifica la ruta segun el nombre del controlador-->
-                <li><a href="<?php echo $rutaBase.'index.php/welcome/usuario';?>">Usuario</a></li>
+                <li><a href="<?php echo $rutaBase.'index.php/vistas/usuario';?>">Usuario</a></li>
               </ul>
             </li>
 			
