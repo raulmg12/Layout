@@ -1,5 +1,10 @@
 <!--GRAFICA-->
+<html>
 
+<head><title>GRAFICA--</title>
+	<?php echo $head;?>
+</head>
+<body>
 <?php 
 /* obtiene la ruta del proyecto*/
  $rutaBase = base_url();
@@ -15,7 +20,7 @@
 		
 		<div class="row" style="border:10px inset pink; border-radius:20px;">
 			<div  class= "col-md-8" style="padding:60px; " > 
-				<img src="<?php echo $rutaBase.'im2.jpg'; ?>" width="60%" height="50%">
+				<img src="<?php echo $rutaBase.'resources/imagenes/im2.jpg'; ?>" width="60%" height="50%">
 			</div> 
 		
 			<div  class= "col-md-4" Style="padding:60px 5px 173px 0px" > 
@@ -37,3 +42,6 @@
 		</div>
 	</div>
 </div>
+</body>
+
+</html>

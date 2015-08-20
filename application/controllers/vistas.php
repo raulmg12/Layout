@@ -23,6 +23,23 @@
 
 			$this->load->view('layout',$data);
 		}
+		
+		public function page($page='g'){
+			
+			//Se carga el hemlper que nos dara la ruta base
+			$this->load->helper('url');
+			
+			//Verifica si se encuentra el archivo
+			 if ( ! file_exists(APPPATH.'/views/'.$page.'.php'))
+			{
+                // Whoops, we don't have a page for that!
+                show_404();
+			}
+				//Carga el header para todos, pero hay que hagregarlo o imprimirlo en cada pagina individual
+				$data['head'] = $this->load->view('header','',TRUE);
+				$this->load->view($page,$data);
+			
+		}
 
 	}
 
