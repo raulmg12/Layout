@@ -1,10 +1,11 @@
+ <html>
+ 
  <div class="container-fluid">
  
- <form action="manejaFor.php" method="post" >
- 	<h1><big><center> Configuracion</center></big></h1>
-
-
-
+ <form action=" " method="post" >
+ 	<head> <title> <h1><big><center> Configuracion</center></big></h1> </title></head>
+ 		
+<body>
 	<div class="row">	<!-- division primera parte de datos personales-->
 	<div class="col-sm-3 col-md-6" style="background-color:lavender;"> 
  
@@ -61,4 +62,6 @@
   </div>
  </div><!-- cerrando division de datos -->
 </form>
+</body>
+</html>
 
